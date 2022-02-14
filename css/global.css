@@ -1,3 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+a {
+    color: var(--primary)
+}
+
+a:hover{
+    color: var(--secondary)
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: var(--medium);
+    font-weight: 400;
+}
+
+.block {
+    margin-bottom: 120px;
+}
+
 .button {
     text-transform: lowercase;
     font-weight: 500;
@@ -5,7 +35,7 @@
     padding-right: 1.4rem;
 }
 
-.button-primay{
+.button-primay {
     background-color: var(--primary);
     border-color: var(--primary);
 }
@@ -15,7 +45,7 @@
     border: var(--primary-dark);
 }
 
-.button-primay-outline{
+.button-primay-outline {
     border-color: var(--primary);
     color: var(--primary);
 }
