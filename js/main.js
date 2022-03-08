@@ -30,14 +30,35 @@ jQuery(document).ready(function ($) {
     });
 
     //MAGNIFY
-
     $(".grid .popup-link").magnificPopup({
         type: "image",
         gallery: {
-        enabled:true,
+        enabled: true,
         tPrev: "Anterior",
-        tNext: "Proxima",
+        tNext: "Próxima",
         tCounter: "%curr% de %total%",
         },
-    })
+    });
+
+    /*/OWL
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        dots: true,
+        lazyload: true,
+        nav: false,
+        Responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                item: 1,
+            },
+            1000: {
+                item: 2,
+            },
+        },
+    });*/
 });
